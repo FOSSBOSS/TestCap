@@ -1,6 +1,6 @@
 #include <Adafruit_LiquidCrystal.h>
 #include <Capacitor.h>
-Capacitor cap1(7,A2);  //both are 6th pin in from usb conector 
+Capacitor cap1(7,A2);  //both are 6th pin in from usb conector using an arduino nano
 
 Adafruit_LiquidCrystal lcd(0); //i2c lcd init
 void setup() {
