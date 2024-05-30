@@ -19,7 +19,7 @@ Improved Readability:<br>
 
 <br>
 This code should work effectively for measuring capacitance and displaying the result on an LCD screen. It also includes handling for cases where no connection is detected, providing clear feedback on the LCD.
-
+<br>
 
 OG Project link:
 https://www.hackster.io/mircemk/how-to-make-simplest-possible-autorange-capacitance-meter-ea7f00
