@@ -30,3 +30,5 @@ https://github.com/codewrite/arduino-capacitor
 The LCD backpack:
 https://www.adafruit.com/product/292
 
+Just made a version for the Vellman VMA203:
+https://www.velleman.eu/products/view?id=435510
