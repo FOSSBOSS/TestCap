@@ -30,7 +30,3 @@ https://github.com/codewrite/arduino-capacitor
 The LCD backpack:
 https://www.adafruit.com/product/292
 
-Hey, this code is totaly different!
-yeah, well once I figured out exactly what the OG code was doing, I decided I didnt want to do it the same way.
-Quite arguably, it is more jank. But it occupies less memory and program space. There is absolutely room for improovement here. 
-like a single line clear function comes to mind.
