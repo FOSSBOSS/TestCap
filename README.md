@@ -5,9 +5,8 @@ ST7565 screen though nice is not something I have on hand.
 
 Differences from Original Code:
 
-Simplified Measurement Handling:
-
-        The Cyfry function in the original code handled the conversion and formatting of the capacitance value. The new code does this directly within the loop function.
+Simplified Measurement Handling:\n
+ The Cyfry function in the original code handled the conversion and formatting of the capacitance value. The new code does this directly within the loop function.
 
 Direct Display:
 
