@@ -14,7 +14,6 @@ void setup(){
  Serial.begin(115200);
  //LiquidCrystal wont let me check for init. IDK, figure that out later.
  //  lcd.setBacklight(HIGH);  // no member function lame.
-  lcd.print("CAPACITANCE");
 }
  
 void loop(){
