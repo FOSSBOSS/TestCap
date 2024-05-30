@@ -2,21 +2,22 @@ This is a fork of Mirko Pavleski's simple capacitance sensor.
 The key difference is here we are using a standard 16x2 LCD 
 screen, with an I2C interface for the screen. The orininal 
 ST7565 screen though nice is not something I have on hand.
-<b><br>Differences from Original Code:
 
-    <b><br>Simplified Measurement Handling:
+Differences from Original Code:
+
+Simplified Measurement Handling:
         The Cyfry function in the original code handled the conversion and formatting of the capacitance value. The new code does this directly within the loop function.
 
-    <b><br>Direct Display:</b><br>
+Direct Display:
         The new code displays the measurement directly on the LCD without intermediate processing, reducing complexity.
 
-    <b><br>Range Handling:</b><br>
+Range Handling:
         The new code uses simpler range checks (if statements) to determine the units (pF, nF, uF) and display them accordingly.
 
-    <b><br>Improved Readability:</b><br>
+Improved Readability:
         The new code is more readable and easier to follow as it combines measurement, processing, and display in a straightforward manner.
 
-<br>This code should work effectively for measuring capacitance and displaying the result on an LCD screen. It also includes handling for cases where no connection is detected, providing clear feedback on the LCD.
+This code should work effectively for measuring capacitance and displaying the result on an LCD screen. It also includes handling for cases where no connection is detected, providing clear feedback on the LCD.
 
 
 OG Project link:
