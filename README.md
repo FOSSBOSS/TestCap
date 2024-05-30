@@ -6,16 +6,21 @@ ST7565 screen though nice is not something I have on hand.
 Differences from Original Code:
 
 Simplified Measurement Handling:
+
         The Cyfry function in the original code handled the conversion and formatting of the capacitance value. The new code does this directly within the loop function.
 
 Direct Display:
+
         The new code displays the measurement directly on the LCD without intermediate processing, reducing complexity.
 
 Range Handling:
+
         The new code uses simpler range checks (if statements) to determine the units (pF, nF, uF) and display them accordingly.
 
 Improved Readability:
+
         The new code is more readable and easier to follow as it combines measurement, processing, and display in a straightforward manner.
+
 
 This code should work effectively for measuring capacitance and displaying the result on an LCD screen. It also includes handling for cases where no connection is detected, providing clear feedback on the LCD.
 
